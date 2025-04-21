@@ -32,9 +32,6 @@ def main():
                 if elements_anteior != elements:
                     string_formatada += elements
                 elements_anteior = elements
-
-                #if len(string_formatada) > len(maior_string):
-                    #maior_string = text
     
             while len(string_formatada) < len(maior_string):
                 string_formatada = " " + string_formatada
